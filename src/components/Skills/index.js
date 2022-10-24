@@ -8,20 +8,20 @@ const SKILLS = [
     value: 100,
   },
   {
-    label: "Flask",
-    value: 75,
-  },
-  {
     label: "Fastapi",
     value: 75,
   },
   {
+    label: "Flask",
+    value: 75,
+  },
+  {
     label: "Django",
-    value: 45,
+    value: 35,
   },
   {
     label: "Falcon",
-    value: 75,
+    value: 45,
   },
   {
     label: "Ruby",
@@ -33,11 +33,11 @@ const SKILLS = [
   },
   {
     label: "Docker",
-    value: 50,
+    value: 45,
   },
   {
     label: "Docker Compose",
-    value: 50,
+    value: 45,
   },
   {
     label: "Javascript",
@@ -53,11 +53,19 @@ const SKILLS = [
   },
   {
     label: "Mongo",
-    value: 80,
+    value: 75,
   },
   {
     label: "AWS",
     value: 35,
+  },
+  {
+    label: "Odoo",
+    value: 80,
+  },
+  {
+    label: "Php",
+    value: 75,
   },
 ];
 
