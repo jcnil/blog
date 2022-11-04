@@ -37,8 +37,9 @@ const ICONS = {
   ),
 };
 
+
 function BuildIcon(key) {
-  const sanitizeKey = key.toLowerCase();
+  const sanitizeKey = key ? key.toLowerCase() : "";
   const iconBuilder = ICONS[sanitizeKey];
   return !iconBuilder ? defaultIcon() : iconBuilder();
 }
