@@ -7,6 +7,7 @@ import {
   SiJava,
   SiPhp,
   SiKotlin,
+  SiHtml5,
   ImBlocked,
 } from "react-icons/si";
 import { FiXCircle } from "react-icons/fi";
@@ -34,6 +35,9 @@ const ICONS = {
   ),
   kotlin: () => (
     <SiKotlin className="mx-auto" size={defaultIconSize} color="#1AA2D4" />
+  ),
+  html: () => (
+    <SiHtml5 className="mx-auto" size={defaultIconSize} color="#1AA2D4" />
   ),
 };
 
